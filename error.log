@@ -1,0 +1,23 @@
+ERROR	2024/06/04 16:35:04 handler.go:38: template: home.page.tmpl:21:18: executing "home.page.tmpl" at <.Text>: can't evaluate field Text in type *models.Todos
+ERROR	2024/06/04 16:35:04 handler.go:38: template: home.page.tmpl:21:18: executing "home.page.tmpl" at <.Text>: can't evaluate field Text in type *models.Todos
+ERROR	2024/06/04 16:40:05 handler.go:43: template: home.page.tmpl:21:18: executing "home.page.tmpl" at <.Text>: can't evaluate field Text in type *models.Todos
+ERROR	2024/06/04 16:40:05 handler.go:43: template: home.page.tmpl:21:18: executing "home.page.tmpl" at <.Text>: can't evaluate field Text in type *models.Todos
+ERROR	2024/06/04 16:42:32 handler.go:43: template: home.page.tmpl:21:18: executing "home.page.tmpl" at <.Text>: can't evaluate field Text in type *models.Todos
+ERROR	2024/06/04 16:42:33 handler.go:43: template: home.page.tmpl:21:18: executing "home.page.tmpl" at <.Text>: can't evaluate field Text in type *models.Todos
+ERROR	2024/06/04 16:42:37 handler.go:43: template: home.page.tmpl:21:18: executing "home.page.tmpl" at <.Text>: can't evaluate field Text in type *models.Todos
+ERROR	2024/06/04 16:42:37 handler.go:43: template: home.page.tmpl:21:18: executing "home.page.tmpl" at <.Text>: can't evaluate field Text in type *models.Todos
+ERROR	2024/06/04 16:42:40 handler.go:43: template: home.page.tmpl:21:18: executing "home.page.tmpl" at <.Text>: can't evaluate field Text in type *models.Todos
+ERROR	2024/06/04 16:42:40 handler.go:43: template: home.page.tmpl:21:18: executing "home.page.tmpl" at <.Text>: can't evaluate field Text in type *models.Todos
+ERROR	2024/06/04 16:42:46 handler.go:43: template: home.page.tmpl:21:18: executing "home.page.tmpl" at <.Text>: can't evaluate field Text in type *models.Todos
+ERROR	2024/06/04 16:42:46 handler.go:43: template: home.page.tmpl:21:18: executing "home.page.tmpl" at <.Text>: can't evaluate field Text in type *models.Todos
+ERROR	2024/06/04 16:43:56 handler.go:43: template: home.page.tmpl:24:52: executing "home.page.tmpl" at <.Id>: can't evaluate field Id in type *models.Todos
+ERROR	2024/06/04 16:43:56 handler.go:43: template: home.page.tmpl:24:52: executing "home.page.tmpl" at <.Id>: can't evaluate field Id in type *models.Todos
+ERROR	2024/06/04 16:44:02 handler.go:43: template: home.page.tmpl:24:52: executing "home.page.tmpl" at <.Id>: can't evaluate field Id in type *models.Todos
+ERROR	2024/06/04 16:44:02 handler.go:43: template: home.page.tmpl:24:52: executing "home.page.tmpl" at <.Id>: can't evaluate field Id in type *models.Todos
+ERROR	2024/06/04 16:46:39 handler.go:47: template: home.page.tmpl:24:52: executing "home.page.tmpl" at <.Id>: can't evaluate field Id in type *models.Todos
+ERROR	2024/06/04 16:46:39 handler.go:47: template: home.page.tmpl:24:52: executing "home.page.tmpl" at <.Id>: can't evaluate field Id in type *models.Todos
+ERROR	2024/06/04 16:49:07 handler.go:47: template: home.page.tmpl:24:64: executing "home.page.tmpl" at <.Id>: can't evaluate field Id in type *models.Todos
+ERROR	2024/06/04 16:49:07 handler.go:47: template: home.page.tmpl:24:64: executing "home.page.tmpl" at <.Id>: can't evaluate field Id in type *models.Todos
+ERROR	2024/06/04 18:09:02 handler.go:47: html/template:home.page.tmpl:18: on range loop re-entry: "\"" in attribute name: "POST\" action=\"/deletetask\">\r\n   "
+ERROR	2024/06/04 18:09:02 handler.go:47: html/template:home.page.tmpl:18: on range loop re-entry: "\"" in attribute name: "POST\" action=\"/deletetask\">\r\n   "
+ERROR	2024/06/06 17:57:26 handler.go:175: open ./ui/html/login.page.layout.tmpl: The system cannot find the file specified.

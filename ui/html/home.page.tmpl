@@ -1,0 +1,55 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    
+</head>
+<body>
+    <nav>
+        <!-- Update the navigation to include signup, login and logout links -->
+        
+        <div class="nav-actions">
+            <a href='/user/signup'>Signup</a>
+            <a href='/user/login'>Login</a>
+            <form action='/user/logout' method='POST'>
+                <button>Logout</button>
+            </form>
+        </div>
+    </nav>
+    <form method="POST" action="/addtask" align="center">
+        <label align="center">ADD TASK</label><br />
+        <input name="task" type="text" required>
+        <input type="submit" >
+    </form>
+    
+    <section>
+    {{if .Flash}}
+        <div class="flash-message">
+        <p>Message : {{.Flash}}</p>
+        </div>
+    {{end}}
+    </section>
+<ol>
+    <p>All Tasks</p>
+        {{range .Tasks}}
+            <li>
+                <div>
+                    <p >{{.Name}}</p>
+                </div>
+                <form method="POST" action="/deletetask">
+                        <input type="hidden" name="id" value="{{.ID}}">
+                        <input type="submit" name="del" value="Remove"/>
+                </form>
+                 <form method="POST" action="/updatetask">
+                        <input type="hidden" name="id" value="{{.ID}}">
+                        <input type="text" name="updatetask">
+                        <input type="submit" name="Update" value="Update"/>
+                </form>        
+            </li>
+        {{end}}
+</ol>
+</body>
+</html>
