@@ -10,11 +10,35 @@ import (
 type TodosModel struct {
 	DB *sql.DB
 }
+ 
+// sql.DB connection pool for SpecialModel
+type SpecialModel struct{
+	DB *sql.DB
+}
 
 // This will insert a new todo into the database.
 func (m *TodosModel) Insert(Name string) (int, error) {
 
 	stmt := `INSERT INTO todos (Name, created, expires)
+	VALUES(?, UTC_TIMESTAMP(), DATE_ADD(UTC_TIMESTAMP(), INTERVAL ? DAY))`
+
+	result, err := m.DB.Exec(stmt, Name, 7)
+	if err != nil {
+		return 0, err
+	}
+
+	id, err := result.LastInsertId()
+	if err != nil {
+		return 0, err
+	}
+
+	return int(id), nil
+
+}
+//this will insert the data of special task to the db:special
+func (m *SpecialModel) InsertSpecial(Name string) (int, error) {
+
+	stmt := `INSERT INTO special (Name, created, expires)
 	VALUES(?, UTC_TIMESTAMP(), DATE_ADD(UTC_TIMESTAMP(), INTERVAL ? DAY))`
 
 	result, err := m.DB.Exec(stmt, Name, 7)
@@ -56,17 +80,53 @@ func (m *TodosModel) GetAll() ([]*models.Todos, error) {
 	return todos, nil
 }
 
+//this if for returning the special tasks from the special db
+func (m *SpecialModel) GetAllSpecial() ([]*models.Special, error) {
+	stmt := "SELECT ID, Name FROM special"
+	rows, err := m.DB.Query(stmt)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	special := []*models.Special{}
+
+	for rows.Next() {
+		s := &models.Special{}
+		err = rows.Scan(&s.ID, &s.Name)
+		if err != nil {
+			return nil, err
+		}
+		special = append(special, s)
+	}
+	if err = rows.Err(); err != nil {
+		return nil, err
+	}
+	return special, nil
+}
+
 // Delete the task according to the ID given
-func (m *TodosModel) Remove(ID int) error {
-	log.Println(ID)
-	stmt := "DELETE FROM todos WHERE id = ?"
-	_, err := m.DB.Exec(stmt, ID)
+func (m *TodosModel) Remove(Name string) error {
+	log.Println(Name)
+	stmt := "DELETE FROM todos WHERE Name = ?"
+	_, err := m.DB.Exec(stmt, Name)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+//Delete all special task
+func (m *SpecialModel) RemoveAllSpecial(Name string) error {
+	log.Println(Name)
+	stmt := "DELETE FROM special WHERE name = ?"
+	_, err := m.DB.Exec(stmt, Name)
 	if err != nil {
 		return err
 	}
 	return nil
 }
 
+//update the task 
 func (m *TodosModel) Update(ID int, Name string) (int, error) {
 	stmt := "UPDATE todos SET Name=? WHERE ID=?"
 	_, err := m.DB.Exec(stmt, Name, ID)
@@ -91,3 +151,7 @@ func (m *TodosModel) CheckIfExists(id int) (bool, error) {
 
 	return true, nil
 }
+
+
+//Task2
+//create a new func for inserting the data into the label and display it in the getall()

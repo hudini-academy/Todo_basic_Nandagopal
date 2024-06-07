@@ -21,3 +21,8 @@ ERROR	2024/06/04 16:49:07 handler.go:47: template: home.page.tmpl:24:64: executi
 ERROR	2024/06/04 18:09:02 handler.go:47: html/template:home.page.tmpl:18: on range loop re-entry: "\"" in attribute name: "POST\" action=\"/deletetask\">\r\n   "
 ERROR	2024/06/04 18:09:02 handler.go:47: html/template:home.page.tmpl:18: on range loop re-entry: "\"" in attribute name: "POST\" action=\"/deletetask\">\r\n   "
 ERROR	2024/06/06 17:57:26 handler.go:175: open ./ui/html/login.page.layout.tmpl: The system cannot find the file specified.
+ERROR	2024/06/07 12:25:36 handler.go:256: html/template:special.page.tmpl:4:11: no such template "base"
+ERROR	2024/06/07 12:26:01 handler.go:256: html/template:special.page.tmpl:4:11: no such template "base"
+ERROR	2024/06/07 12:37:08 handler.go:256: html/template:special.page.tmpl:4:11: no such template "base"
+ERROR	2024/06/07 12:38:59 handler.go:256: html/template:special.page.tmpl:4:11: no such template "base"
+ERROR	2024/06/07 12:48:17 handler.go:256: html/template:special.page.tmpl:4:11: no such template "base"

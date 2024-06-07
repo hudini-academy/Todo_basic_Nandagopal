@@ -499,3 +499,279 @@ INFO	2024/06/06 18:28:57 [::1]:57777 - HTTP/1.1 POST /user/login
 INFO	2024/06/06 18:28:57 [::1]:57777 - HTTP/1.1 GET /
 INFO	2024/06/06 18:28:57 Displayed home page
 INFO	2024/06/06 18:28:57 [::1]:57777 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/06 19:11:49 [::1]:58591 - HTTP/1.1 GET /
+INFO	2024/06/06 19:11:49 Displayed home page
+INFO	2024/06/06 19:11:49 [::1]:58591 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/06 19:11:51 [::1]:58591 - HTTP/1.1 GET /favicon.ico
+INFO	2024/06/06 19:12:02 [::1]:58591 - HTTP/1.1 GET /user/login
+INFO	2024/06/06 19:12:35 [::1]:58591 - HTTP/1.1 GET /
+INFO	2024/06/06 19:12:35 Displayed home page
+INFO	2024/06/06 19:16:22 [::1]:58591 - HTTP/1.1 POST /user/logout
+INFO	2024/06/06 19:16:22 [::1]:58591 - HTTP/1.1 GET /user/login
+INFO	2024/06/06 19:32:43 [::1]:58731 - HTTP/1.1 GET /
+INFO	2024/06/06 19:32:43 [::1]:58731 - HTTP/1.1 GET /login
+INFO	2024/06/06 19:32:43 [::1]:58731 - HTTP/1.1 GET /
+INFO	2024/06/06 19:32:43 [::1]:58731 - HTTP/1.1 GET /login
+INFO	2024/06/06 19:32:46 [::1]:58731 - HTTP/1.1 GET /login
+INFO	2024/06/06 19:33:05 [::1]:58731 - HTTP/1.1 GET /user/login
+INFO	2024/06/06 19:33:05 [::1]:58731 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/06 19:33:48 [::1]:58763 - HTTP/1.1 GET /
+INFO	2024/06/06 19:33:48 [::1]:58763 - HTTP/1.1 GET /user/login
+INFO	2024/06/06 19:33:57 [::1]:58763 - HTTP/1.1 POST /user/login
+INFO	2024/06/06 19:33:57 [::1]:58763 - HTTP/1.1 GET /
+INFO	2024/06/06 19:33:57 Displayed home page
+INFO	2024/06/06 19:34:04 [::1]:58763 - HTTP/1.1 POST /user/logout
+INFO	2024/06/06 19:34:04 [::1]:58763 - HTTP/1.1 GET /user/login
+INFO	2024/06/07 10:58:26 [::1]:59768 - HTTP/1.1 GET /
+INFO	2024/06/07 10:58:26 [::1]:59768 - HTTP/1.1 GET /user/login
+INFO	2024/06/07 10:58:26 [::1]:59768 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 10:58:26 [::1]:59768 - HTTP/1.1 GET /favicon.ico
+INFO	2024/06/07 10:58:36 [::1]:59769 - HTTP/1.1 POST /user/login
+INFO	2024/06/07 10:58:36 [::1]:59769 - HTTP/1.1 GET /
+INFO	2024/06/07 10:58:36 Displayed home page
+INFO	2024/06/07 12:12:06 [::1]:59885 - HTTP/1.1 GET /
+INFO	2024/06/07 12:12:06 Displayed home page
+INFO	2024/06/07 12:12:08 [::1]:59885 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:17:31 [::1]:59894 - HTTP/1.1 GET /user/login
+INFO	2024/06/07 12:17:43 [::1]:59894 - HTTP/1.1 GET /
+INFO	2024/06/07 12:17:43 Displayed home page
+INFO	2024/06/07 12:18:37 [::1]:59894 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:22:19 [::1]:59908 - HTTP/1.1 GET /
+INFO	2024/06/07 12:22:19 Displayed home page
+INFO	2024/06/07 12:22:21 [::1]:59908 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:23:42 [::1]:59908 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:23:51 [::1]:59908 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:24:01 [::1]:59908 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:24:09 [::1]:59908 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:25:34 [::1]:59967 - HTTP/1.1 GET /
+INFO	2024/06/07 12:25:34 Displayed home page
+INFO	2024/06/07 12:25:34 [::1]:59967 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 12:25:36 [::1]:59967 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:25:58 [::1]:59967 - HTTP/1.1 POST /addtask
+INFO	2024/06/07 12:25:58 [::1]:59967 - HTTP/1.1 GET /
+INFO	2024/06/07 12:25:58 Displayed home page
+INFO	2024/06/07 12:25:58 [::1]:59967 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 12:26:01 [::1]:59967 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:37:08 [::1]:60290 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:38:59 [::1]:60290 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:48:15 [::1]:60606 - HTTP/1.1 GET /
+INFO	2024/06/07 12:48:15 Displayed home page
+INFO	2024/06/07 12:48:15 [::1]:60606 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 12:48:17 [::1]:60606 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:50:17 [::1]:60667 - HTTP/1.1 GET /
+INFO	2024/06/07 12:50:17 Displayed home page
+INFO	2024/06/07 12:50:17 [::1]:60667 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 12:50:19 [::1]:60667 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:50:19 Displayed special page
+INFO	2024/06/07 12:50:19 [::1]:60667 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 12:51:35 [::1]:60667 - HTTP/1.1 POST /addtask
+INFO	2024/06/07 12:51:35 [::1]:60667 - HTTP/1.1 GET /
+INFO	2024/06/07 12:51:35 Displayed home page
+INFO	2024/06/07 12:51:35 [::1]:60667 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 12:51:39 [::1]:60667 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 12:51:39 Displayed special page
+INFO	2024/06/07 12:51:39 [::1]:60667 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:32:41 [::1]:61851 - HTTP/1.1 GET /
+INFO	2024/06/07 13:32:41 Displayed home page
+INFO	2024/06/07 13:32:41 [::1]:61851 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:32:58 [::1]:61851 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 13:32:58 [::1]:61851 - HTTP/1.1 GET /
+INFO	2024/06/07 13:32:58 Displayed home page
+INFO	2024/06/07 13:32:58 [::1]:61851 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:33:12 [::1]:61851 - HTTP/1.1 POST /addtask
+INFO	2024/06/07 13:33:12 [::1]:61851 - HTTP/1.1 GET /
+INFO	2024/06/07 13:33:12 Displayed home page
+INFO	2024/06/07 13:33:12 [::1]:61851 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:33:17 [::1]:61851 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 13:33:17 Displayed special page
+INFO	2024/06/07 13:33:17 [::1]:61851 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:33:28 [::1]:61851 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 13:33:28 [::1]:61851 - HTTP/1.1 GET /
+INFO	2024/06/07 13:33:28 Displayed home page
+INFO	2024/06/07 13:33:28 [::1]:61851 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:33:52 [::1]:61851 - HTTP/1.1 POST /addtask
+INFO	2024/06/07 13:33:52 [::1]:61851 - HTTP/1.1 GET /
+INFO	2024/06/07 13:33:52 Displayed home page
+INFO	2024/06/07 13:33:52 [::1]:61851 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:33:57 [::1]:61851 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 13:33:57 Displayed special page
+INFO	2024/06/07 13:33:57 [::1]:61851 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:37:23 [::1]:61851 - HTTP/1.1 POST /addtask
+INFO	2024/06/07 13:37:23 [::1]:61851 - HTTP/1.1 GET /
+INFO	2024/06/07 13:37:23 Displayed home page
+INFO	2024/06/07 13:37:23 [::1]:61851 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:37:28 [::1]:61851 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 13:37:28 Displayed special page
+INFO	2024/06/07 13:37:28 [::1]:61851 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:43:25 [::1]:62156 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 13:43:25 Displayed special page
+INFO	2024/06/07 13:43:25 [::1]:62156 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:43:27 [::1]:62156 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 13:43:27 [::1]:62156 - HTTP/1.1 GET /
+INFO	2024/06/07 13:43:27 Displayed home page
+INFO	2024/06/07 13:43:27 [::1]:62156 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:43:32 [::1]:62156 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 13:43:32 Displayed special page
+INFO	2024/06/07 13:43:32 [::1]:62156 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:56:54 [::1]:62534 - HTTP/1.1 GET /
+INFO	2024/06/07 13:56:54 Displayed home page
+INFO	2024/06/07 13:56:54 [::1]:62534 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:56:58 [::1]:62534 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 13:56:58 [::1]:62534 - HTTP/1.1 GET /
+INFO	2024/06/07 13:56:58 Displayed home page
+INFO	2024/06/07 13:56:58 [::1]:62534 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:57:02 [::1]:62534 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 13:57:02 [::1]:62534 - HTTP/1.1 GET /
+INFO	2024/06/07 13:57:02 Displayed home page
+INFO	2024/06/07 13:57:02 [::1]:62534 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:57:07 [::1]:62534 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 13:57:07 [::1]:62534 - HTTP/1.1 GET /
+INFO	2024/06/07 13:57:07 Displayed home page
+INFO	2024/06/07 13:57:07 [::1]:62534 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:58:39 [::1]:62587 - HTTP/1.1 GET /
+INFO	2024/06/07 13:58:39 Displayed home page
+INFO	2024/06/07 13:58:39 [::1]:62587 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:58:41 [::1]:62587 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 13:58:41 [::1]:62587 - HTTP/1.1 GET /
+INFO	2024/06/07 13:58:41 Displayed home page
+INFO	2024/06/07 13:58:41 [::1]:62587 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 13:58:45 [::1]:62587 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 13:58:45 [::1]:62587 - HTTP/1.1 GET /
+INFO	2024/06/07 13:58:45 Displayed home page
+INFO	2024/06/07 13:58:45 [::1]:62587 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:00:12 [::1]:62587 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 14:00:12 [::1]:62587 - HTTP/1.1 GET /
+INFO	2024/06/07 14:00:12 Displayed home page
+INFO	2024/06/07 14:00:12 [::1]:62587 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:00:17 [::1]:62587 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 14:00:17 [::1]:62587 - HTTP/1.1 GET /
+INFO	2024/06/07 14:00:17 Displayed home page
+INFO	2024/06/07 14:00:17 [::1]:62587 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:05:55 [::1]:62798 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 14:05:55 [::1]:62798 - HTTP/1.1 GET /
+INFO	2024/06/07 14:05:55 Displayed home page
+INFO	2024/06/07 14:05:56 [::1]:62798 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:06:00 [::1]:62798 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 14:06:00 [::1]:62798 - HTTP/1.1 GET /
+INFO	2024/06/07 14:06:00 Displayed home page
+INFO	2024/06/07 14:06:00 [::1]:62798 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:06:05 [::1]:62798 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 14:06:05 [::1]:62798 - HTTP/1.1 GET /
+INFO	2024/06/07 14:06:05 Displayed home page
+INFO	2024/06/07 14:06:05 [::1]:62798 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:06:21 [::1]:62798 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 14:06:21 Displayed special page
+INFO	2024/06/07 14:06:21 [::1]:62798 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:14:41 [::1]:63041 - HTTP/1.1 GET /
+INFO	2024/06/07 14:14:41 Displayed home page
+INFO	2024/06/07 14:14:41 [::1]:63041 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:27:56 [::1]:63412 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 14:27:56 Displayed special page
+INFO	2024/06/07 14:27:56 [::1]:63412 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:33:40 [::1]:63577 - HTTP/1.1 GET /
+INFO	2024/06/07 14:33:40 Displayed home page
+INFO	2024/06/07 14:33:40 [::1]:63577 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:33:43 [::1]:63577 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 14:33:43 Displayed special page
+INFO	2024/06/07 14:33:44 [::1]:63577 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:34:27 [::1]:63577 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 14:34:27 [::1]:63577 - HTTP/1.1 GET /
+INFO	2024/06/07 14:34:27 Displayed home page
+INFO	2024/06/07 14:34:27 [::1]:63577 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:34:47 [::1]:63577 - HTTP/1.1 POST /addtask
+INFO	2024/06/07 14:34:47 [::1]:63577 - HTTP/1.1 GET /
+INFO	2024/06/07 14:34:47 Displayed home page
+INFO	2024/06/07 14:34:47 [::1]:63577 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:35:05 [::1]:63577 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 14:35:05 Displayed special page
+INFO	2024/06/07 14:35:05 [::1]:63577 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:35:11 [::1]:63577 - HTTP/1.1 POST /user/deletetask
+INFO	2024/06/07 14:36:18 [::1]:63577 - HTTP/1.1 POST /addtask
+INFO	2024/06/07 14:36:18 [::1]:63577 - HTTP/1.1 GET /
+INFO	2024/06/07 14:36:18 Displayed home page
+INFO	2024/06/07 14:36:18 [::1]:63577 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:36:23 [::1]:63577 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 14:36:23 Displayed special page
+INFO	2024/06/07 14:36:23 [::1]:63577 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:37:42 [::1]:63577 - HTTP/1.1 POST /addtask
+INFO	2024/06/07 14:37:42 [::1]:63577 - HTTP/1.1 GET /
+INFO	2024/06/07 14:37:42 Displayed home page
+INFO	2024/06/07 14:37:42 [::1]:63577 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:37:48 [::1]:63577 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 14:37:48 Displayed special page
+INFO	2024/06/07 14:37:48 [::1]:63577 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:39:26 [::1]:63577 - HTTP/1.1 POST /user/deletetask
+INFO	2024/06/07 14:47:59 [::1]:63982 - HTTP/1.1 GET /
+INFO	2024/06/07 14:47:59 Displayed home page
+INFO	2024/06/07 14:47:59 [::1]:63982 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:48:24 [::1]:63982 - HTTP/1.1 POST /addtask
+INFO	2024/06/07 14:48:24 [::1]:63982 - HTTP/1.1 GET /
+INFO	2024/06/07 14:48:24 Displayed home page
+INFO	2024/06/07 14:48:24 [::1]:63982 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:48:29 [::1]:63982 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 14:48:29 Displayed special page
+INFO	2024/06/07 14:48:29 [::1]:63982 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:48:37 [::1]:63982 - HTTP/1.1 POST /user/deletetask
+INFO	2024/06/07 14:48:45 [::1]:63982 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 14:48:45 [::1]:63982 - HTTP/1.1 GET /
+INFO	2024/06/07 14:48:45 Displayed home page
+INFO	2024/06/07 14:48:45 [::1]:63982 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:48:50 [::1]:63982 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 14:48:50 Displayed special page
+INFO	2024/06/07 14:48:50 [::1]:63982 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:50:43 [::1]:63982 - HTTP/1.1 POST /user/deletetask
+INFO	2024/06/07 14:55:09 [::1]:64187 - HTTP/1.1 GET /
+INFO	2024/06/07 14:55:09 Displayed home page
+INFO	2024/06/07 14:55:09 [::1]:64187 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:55:14 [::1]:64187 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 14:55:14 Displayed special page
+INFO	2024/06/07 14:55:14 [::1]:64187 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:55:16 [::1]:64187 - HTTP/1.1 POST /user/deletetask
+INFO	2024/06/07 14:55:16 [::1]:64187 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 14:55:16 Displayed special page
+INFO	2024/06/07 14:55:16 [::1]:64187 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:55:19 [::1]:64187 - HTTP/1.1 POST /user/deletetask
+INFO	2024/06/07 14:55:19 [::1]:64187 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 14:55:19 Displayed special page
+INFO	2024/06/07 14:55:19 [::1]:64187 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:56:09 [::1]:64187 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 14:56:09 Displayed special page
+INFO	2024/06/07 14:56:09 [::1]:64187 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:56:11 [::1]:64187 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 14:56:11 Displayed special page
+INFO	2024/06/07 14:56:11 [::1]:64187 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:56:18 [::1]:64187 - HTTP/1.1 GET /
+INFO	2024/06/07 14:56:18 Displayed home page
+INFO	2024/06/07 14:56:18 [::1]:64187 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:56:22 [::1]:64187 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 14:56:22 [::1]:64187 - HTTP/1.1 GET /
+INFO	2024/06/07 14:56:22 Displayed home page
+INFO	2024/06/07 14:56:22 [::1]:64187 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 14:56:24 [::1]:64187 - HTTP/1.1 POST /deletetask
+INFO	2024/06/07 14:56:24 [::1]:64187 - HTTP/1.1 GET /
+INFO	2024/06/07 14:56:24 Displayed home page
+INFO	2024/06/07 14:56:24 [::1]:64187 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 15:07:34 [::1]:64535 - HTTP/1.1 POST /addtask
+INFO	2024/06/07 15:07:34 [::1]:64535 - HTTP/1.1 GET /
+INFO	2024/06/07 15:07:34 Displayed home page
+INFO	2024/06/07 15:07:34 [::1]:64535 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 15:07:36 [::1]:64535 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 15:07:36 Displayed special page
+INFO	2024/06/07 15:07:36 [::1]:64535 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 15:07:48 [::1]:64535 - HTTP/1.1 POST /addtask
+INFO	2024/06/07 15:07:48 [::1]:64535 - HTTP/1.1 GET /
+INFO	2024/06/07 15:07:48 Displayed home page
+INFO	2024/06/07 15:07:48 [::1]:64535 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 15:07:52 [::1]:64535 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 15:07:52 Displayed special page
+INFO	2024/06/07 15:07:52 [::1]:64535 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 15:07:54 [::1]:64535 - HTTP/1.1 POST /user/deletetask
+INFO	2024/06/07 15:07:54 [::1]:64535 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 15:07:54 Displayed special page
+INFO	2024/06/07 15:07:54 [::1]:64535 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 15:07:56 [::1]:64535 - HTTP/1.1 GET /user/special
+INFO	2024/06/07 15:07:56 Displayed special page
+INFO	2024/06/07 15:07:56 [::1]:64535 - HTTP/1.1 GET /static/style.css
+INFO	2024/06/07 15:08:05 [::1]:64535 - HTTP/1.1 GET /
+INFO	2024/06/07 15:08:05 Displayed home page
+INFO	2024/06/07 15:08:05 [::1]:64535 - HTTP/1.1 GET /static/style.css

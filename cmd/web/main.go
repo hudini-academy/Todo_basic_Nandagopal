@@ -21,6 +21,7 @@ type application struct {
 	todo     *mysql.TodosModel
 	session  *sessions.Session
 	users    *mysql.UserModel
+	special  *mysql.SpecialModel             // for special db
 }
 
 func main() {
@@ -64,6 +65,7 @@ func main() {
 		todo:     &mysql.TodosModel{DB: db},
 		session:  session, 
 		users: 	  &mysql.UserModel{DB: db},
+		special:  &mysql.SpecialModel{DB: db},               //special db
 		}
 
 	
